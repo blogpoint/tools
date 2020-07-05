@@ -3,7 +3,7 @@
    "active": true,
    "person": [
      {
-       "name": "John Doe",
+       "name": "Muhammad Ali",
        "age": 22,
        "married": false,
        "labels": [
@@ -13,7 +13,7 @@
      },
      {
        "name": "Anonymous",
-       "age": 1001,
+       "age": 99,
        "married": true,
        "labels": []
      }
