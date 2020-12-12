@@ -1463,7 +1463,7 @@ var BV = {};
         BV.browserStorage = {};
 
         var hasIndexedDB = !!window.indexedDB;
-        const dbNameStr = 'Kleki';
+        const dbNameStr = 'misteroperator';
         const storageNameStr = 'ProjectStore';
 
         /**
