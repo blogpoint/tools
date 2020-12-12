@@ -1463,7 +1463,7 @@ var BV = {};
         BV.browserStorage = {};
 
         var hasIndexedDB = !!window.indexedDB;
-        const dbNameStr = 'Kleki';
+        const dbNameStr = 'previewslab.blogspot';
         const storageNameStr = 'ProjectStore';
 
         /**
@@ -1576,7 +1576,7 @@ var BV = {};
         }
 
         /**
-         * KlekiProjectObj {
+         * previewslab.blogspotProjectObj {
          *     width: int,
          *     height: int,
          *     layers: {
@@ -1587,10 +1587,10 @@ var BV = {};
          *     }[]
          * }
          *
-         * @param successCallback function - called when succesfully queried. passes KlekiProjectObj
+         * @param successCallback function - called when succesfully queried. passes previewslab.blogspotProjectObj
          * @param errorCallback - function(errorStr) - called when error during query
          */
-        BV.browserStorage.getKlekiProjectObj = function (successCallback, errorCallback) {
+        BV.browserStorage.getpreviewslab.blogspotProjectObj = function (successCallback, errorCallback) {
             var resultObj;
             var toLoadCount = 0;//images left to be loaded
             var isLoadedFromIndexedDB = false;
@@ -1692,9 +1692,9 @@ var BV = {};
         };
 
         /**
-         * stores a klekiProjectObj into id = 1 in database:dbNameStr > storage: storageNameStr
+         * stores a previewslab.blogspotProjectObj into id = 1 in database:dbNameStr > storage: storageNameStr
          *
-         * KlekiProjectObj {
+         * previewslab.blogspotProjectObj {
          *     width: int,
          *     height: int,
          *     layers: {
@@ -1705,18 +1705,18 @@ var BV = {};
          *     }[]
          * }
          *
-         * @param klekiProjectObj KlekiProjectObj - project to be stored
+         * @param previewslab.blogspotProjectObj previewslab.blogspotProjectObj - project to be stored
          * @param successCallback function() - on successful transaction
          * @param errorCallback function(errorStr) - on error
          */
-        BV.browserStorage.storeKlekiProjectObj = function (klekiProjectObj, successCallback, errorCallback) {
+        BV.browserStorage.storepreviewslab.blogspotProjectObj = function (previewslab.blogspotProjectObj, successCallback, errorCallback) {
             clearLocalStorage();
             execIndexedDBTransaction(function (storeObj) {
                 storeObj.put({
                     id: 1,
-                    width: klekiProjectObj.width,
-                    height: klekiProjectObj.height,
-                    layers: klekiProjectObj.layers,
+                    width: previewslab.blogspotProjectObj.width,
+                    height: previewslab.blogspotProjectObj.height,
+                    layers: previewslab.blogspotProjectObj.layers,
                     timestamp: new Date().getTime()
                 });
             }, function () {
@@ -1728,7 +1728,7 @@ var BV = {};
         };
 
         /**
-         * clears local storage (only keys related to kleki)
+         * clears local storage (only keys related to previewslab.blogspot)
          * and removes id = 1 from database:dbNameStr > storage: storageNameStr
          *
          * @param successCallback function() - on successful transaction
