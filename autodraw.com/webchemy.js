@@ -1007,7 +1007,7 @@ var Webchemy = (function () {
         linkColor: "#83d1e9",
         linkHoverColor: "#b2edff",
         opacityOff: 0.4,
-        buttonSVG: "icons.svg?v=2",
+        buttonSVG: "https://webchemy.org/icons.svg?v=2",
         svgGrid: [ //name, i, e
 			["btn_undo.svg", 0, 0],
             ["btn_redo.svg", 1, 0],
