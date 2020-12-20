@@ -200,22 +200,6 @@ ready(function(){
 						}.bind(color), 1000);
 					}
 				}
-								
-				if(group.getAttribute('id') == 'colors'){
-				    var m;
-				    var class1 = document.querySelectorAll('svg .color1');
-				    for(m=0; m<class1.length; m++){
-				        class1[m].style.fill = rgbToHex(palette[0]);
-				    }
-				    var class2 = document.querySelectorAll('svg .color2');
-				    for(m=0; m<class2.length; m++){
-				        class2[m].style.fill = rgbToHex(palette[1]);
-				    }
-				    var class3 = document.querySelectorAll('svg .color3');
-				    for(m=0; m<class3.length; m++){
-				        class3[m].style.fill = rgbToHex(palette[2]);
-				    }
-				}
 				
 				var sponsor = document.getElementById('sponsor');
 				if(sponsor && sponsor.className == group.getAttribute('id')){
