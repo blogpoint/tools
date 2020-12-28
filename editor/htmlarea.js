@@ -58,10 +58,10 @@ function HTMLArea(textarea, config) {
 
 // load some scripts
 (function() {
-	var scripts = HTMLArea._scripts = [ _editor_url + "htmlarea.js",
-					    _editor_url + "dialog.js",
-					    _editor_url + "popupwin.js",
-					    _editor_url + "lang/" + _editor_lang + ".js" ];
+	var scripts = HTMLArea._scripts = [ http://www.isdntek.com/editor + "htmlarea.js",
+					   http://www.isdntek.com/editor + "dialog.js",
+					    http://www.isdntek.com/editor + "popupwin.js",
+					    http://www.isdntek.com/editor + "lang/" + _editor_lang + ".js" ];
 	var head = document.getElementsByTagName("head")[0];
 	// start from 1, htmlarea.js is already loaded
 	for (var i = 1; i < scripts.length; ++i) {
