@@ -173,7 +173,7 @@
       if (temp === '') return;
 
       if (!workerFormat) {
-        workerFormat = new Worker('https://rawcdn.githack.com/teachwiki/tools/5b47053e9c95f54ca6927d6e9f279ec9ee0fc694/de4js/worker/format.js');
+        workerFormat = new Worker('/de4js/worker/format.js');
         workerFormat.addEventListener('message', function (e) {
           if (!e.data.highlight) {
             downloadResult(e.data.result);
@@ -243,7 +243,7 @@
       }
 
       if (!workerDecode) {
-        workerDecode = new Worker('https://rawcdn.githack.com/teachwiki/tools/5b47053e9c95f54ca6927d6e9f279ec9ee0fc694/de4js/worker/decode.js');
+        workerDecode = new Worker('/de4js/worker/decode.js');
         workerDecode.addEventListener('message', function (e) {
           if (e.data !== temp) {
             temp = e.data;
