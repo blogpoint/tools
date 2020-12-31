@@ -23,7 +23,7 @@ self.addEventListener('message', (e) => {
     self._window = self.window;
     self.window = {};
 
-    self.importScripts('/de4js/third_party/js-beautify/beautify.min.js');
+    self.importScripts('https://rawcdn.githack.com/teachwiki/tools/54d6c2ea32b12ecb996381634a585b1becaeee83/de4js/third_party/js-beautify/beautify.min.js');
 
     source = self.window.js_beautify(source, {
       unescape_strings: true,
@@ -41,7 +41,7 @@ self.addEventListener('message', (e) => {
   });
 
   try {
-    self.importScripts('/de4js/third_party/highlight-js/highlight.min.js');
+    self.importScripts('https://rawcdn.githack.com/teachwiki/tools/7e12fb782fff8c777750244c51145eed8daec64d/de4js/third_party/highlight-js/highlight.min.js');
 
     source = self.hljs.highlight('javascript', source).value;
 
