@@ -1,0 +1,40 @@
+:root {
+--background: #8566ff;
+--hoverBackground: #eae5ff;
+--backgroundRGB: 133,102,255;
+--hoverBackgroundRGB: 234,229,255;
+--bgPattern: url(https://www.transparenttextures.com/patterns/cubes.png), linear-gradient(to right top, rgb(248 249 250 / 50%),rgb(248 249 250 / 50%));
+--gray: #a4b0be;
+--font: &#39;Poppins&#39;, sans-serif;
+--box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+--avatar-shadow: 0 1px 4px rgba(0,0,0,0.05);
+--row-width: 1000px;
+--sidebar-width: 300px;
+--owmw: calc(1000px + 50px);				/*	Outer-Wrapper Max-Width						*/
+--mww: calc(100% - (300px + 25px));	/*	Main-Wrapper Width							*/
+--bhiw: calc(1000px + 50px);				/*	Boxed-Header Inner Width					*/
+--bhimw: calc(1000px + 50px);				/*	Boxed-Header Inner Max-Width				*/
+--pfiw: calc(100% - (300px + 25px));	/*	Primary Footer Section Image Width			*/
+--rmw: calc(1000px + 50px);				/*	Responsive Max-Width						*/
+}
+.light{
+--body-bg: #f8f9fa;
+--white: #ffffff;
+--black: #102639;
+--image-loader: #f5f5f5 linear-gradient(to right,rgba(255,255,255,0) 5%,rgba(255,255,255,.75) 20%,rgba(255,255,255,0) 30%);
+}
+.dark{
+--body-bg: rgb(17, 31, 45, 0.9);
+--white: #102639;
+--black: #ffffff;
+--image-loader: var(--black) linear-gradient(to right,rgba(0,0,0,0) 5%,rgba(0,0,0,.75) 20%,rgba(0,0,0,0) 30%);
+}
+@media screen and (max-width:calc(1000px + 50px)){#outer-wrapper,.headerify-inner,.boxed .headerify-inner{width:100%;max-width:100%;margin:0}.row-x1{width:100%}.headerify-wrap .headerify-inner,.header-ad-wrap &gt; .container,#content-wrapper &gt; .container,#footer-wrapper .container{box-sizing:border-box;padding:0 20px}}.sidebar .widget-content.no-style{padding:0px}.no-ads AdSense{display:none!important}
+  
+  
+  
+  .loading-screen{position:fixed;top:0;left:0;width:100%;height:100vh;background-color:#f5f5f5;display:flex;align-items:center;justify-content:center;text-align:center;z-index:999999}.loading-screen .logo{border-radius:6px}.loading-screen .loading-bar{width:130px;height:2px;background:#cfcfcf;margin-top:22px;position:relative;overflow:hidden}.loading-screen .loading-bar::before{content:&#39;&#39;;width:68px;height:2px;background:var(--background);position:absolute;left:-34px;animation:bluebar 1.5s infinite ease}@keyframes bluebar{50%{left:96px}}
+  
+  
+  .blog-pager-older-link {display:none;}
+  
