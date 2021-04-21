@@ -1,0 +1,24 @@
+ ::-webkit-scrollbar {
+    width:2px;
+    height:2px;
+    }
+    ::-webkit-scrollbar-track {
+    background:#FFF;  /*&#8212;&#8212;This is background color of scrollbar track &#8212;&#8212;*/
+    -webkit-box-shadow:inset 2px 2px 4px #E0E0E0;
+  border-radius: 10px;
+    border:1px solid #D8D8D8;
+    }
+    ::-webkit-scrollbar-thumb {
+    background:#c0392b;  /*&#8212;&#8212;Thumb color &#8212;&#8212;*/
+    -webkit-box-shadow:inset 1px 1px 2px rgba(155,155,155,0.4);
+  border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    -webkit-box-shadow:inset 2px 2px 10px rgba(0,0,0,0.4); /*&#8212;&#8212;Shadow on hover&#8212;&#8212;*/
+  border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:active {
+    background:#333;   /*&#8212;&#8212;Thumb color when it is active&#8212;&#8212;*/
+    -webkit-box-shadow:inset 1px 1px 2px rgba(0,0,0,0.4);
+  border-radius: 10px;
+    }
