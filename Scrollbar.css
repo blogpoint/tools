@@ -1,6 +1,6 @@
  ::-webkit-scrollbar {
-    width:2px;
-    height:2px;
+    width:8px;
+    height:8px;
     }
     ::-webkit-scrollbar-track {
     background:#FFF;  /*&#8212;&#8212;This is background color of scrollbar track &#8212;&#8212;*/
