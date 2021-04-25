@@ -16,7 +16,9 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #FF5722; 
+       
+    background: #FF5722; /*&#8212;&#8212;Shadow on hover&#8212;&#8212;*/
+     
 }
     ::-webkit-scrollbar-thumb:active {
     background:#333;   /*&#8212;&#8212;Thumb color when it is active&#8212;&#8212;*/
